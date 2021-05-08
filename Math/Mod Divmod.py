@@ -1,0 +1,6 @@
+n1=int(input())
+n2=int(input())
+z=divmod(n1,n2)
+print(z[0])
+print(z[1])
+print(z)
