@@ -1,0 +1,7 @@
+n1=int(input())
+x=input()
+n2=int(input())
+y=input()
+res1= set(x.split())
+res2= set(y.split())
+print(len(res1^set(res2)))
